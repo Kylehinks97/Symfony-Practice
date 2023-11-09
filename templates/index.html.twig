@@ -1,3 +1,11 @@
-{% if title %}
-	<p></p>
-{% else %}
+{% extends 'base.html.twig' %}
+
+{% block title %}
+	Movies Page
+{% endblock %}
+
+{% block body %}
+	
+	{{_self}}
+
+{% endblock %}
